@@ -1,0 +1,229 @@
+html, body {
+  color: transparent;
+  background-color: #B7B7B7;
+  background-size: auto;
+  font-family: "Times New Roman", Times, serif;
+  margin:0;
+  padding:0;
+}
+
+p {
+  color: black;
+  background-color: transparent;
+  font-size: 100%;
+  margin: 0 0 15px 0;
+}
+
+p.darpa {
+  color: black;
+  background-color: transparent;
+  margin: 10px 0 10px 0;
+}
+
+p.list {
+  color: black;
+  background-color: transparent;
+  font-size: 100%;
+  margin-bottom: 5px;
+}
+
+h1 {
+  color: black;
+  background-color: transparent;
+  font-size: 150%;
+  margin-top: 5px;
+}
+
+h2 {
+  color: black;
+  background-color: transparent;
+  text-align: center;
+  font-size: 150%;
+  margin-top: 5px;
+}
+
+h3 {
+  color: black;
+  background-color: transparent;
+  font-size: 120%;
+}
+
+div#header {
+  text-align: center;
+}
+
+div nav ul {
+  list-style-type: none;
+}
+
+div nav ul li {
+  background-color: #4AC01E;
+  color: white;
+  display: inline-block;
+  width: 125px;
+  height: 25px;
+  box-shadow: 0 9px #999;
+}
+
+div nav ul li a {
+  display:inline-block;
+  width:125px;
+  height: 40px;
+  text-align:center;
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+}
+
+div nav ul li.current {
+  background-color: #339A0D;
+  color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+div nav ul li:hover {
+  color: white;
+  background-color: #399A0D;
+}
+
+div nav ul li:active {
+  background-color: #339A0D;
+  color: inherit;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+div#body {
+  display: table;
+  padding: 0 10px 0 10px;
+}
+
+div.bodyrow {
+  display: table-row;
+}
+
+section.left1 {
+  display: table-cell;
+  padding: 15px 30px 15px 30px;
+  text-align: justify;
+  width: 20%;
+}
+
+section.mid1 {
+  display: table-cell;
+  padding: 15px 30px 15px 30px;
+  text-align: justify;
+  width: 20%;
+}
+
+section.right1 {
+  display: table-cell;
+  padding: 15px 30px 15px 30px;
+  text-align: justify;
+  width: 20%;
+}
+
+section.left2 {
+  display: table-cell;
+  padding: 15px 25px 0 50px;
+  text-align: justify;
+  width: 52%;
+}
+
+section.right2 {
+  display: table-cell;
+  padding: 15px 50px 0 25px;
+  text-align: justify;
+  width: auto;
+}
+
+section.left3 {
+  display: table-cell;
+  padding: 0 40px 15px 80px;
+  text-align: justify;
+  width: 51%;
+}
+
+section.right3 {
+  display: table-cell;
+  padding: 0 80px 15px 40px;
+  text-align: justify;
+  width: auto;
+}
+
+ol.list {
+  background-color: transparent;
+  color: black;
+  padding: 15px;
+}
+
+li {
+  padding: 5px 0 5px 0;
+}
+
+div.tabell {
+  display: table;
+}
+
+table.tabell {
+  width: 100%;
+  color: black;
+  background-color: transparent;
+}
+
+th {
+  padding: 0 10px 10px 10px;
+  font-size: 120%;
+  color: black;
+  background-color: transparent;
+}
+
+td {
+  font-size: 110%;
+  padding: 5px;
+}
+
+img#banner {
+  margin-right: auto;
+  margin-left: auto;
+  width: auto;
+  height: 125px;
+  padding: 15px 0px 15px 40px;
+}
+
+img#tim {
+  height: 125px;
+  float: left;
+  margin: 0 15px 15px 0;
+}
+
+img#positiva {
+  height: 180px;
+  display: block;
+  margin: 0 auto;
+}
+
+img#negativa {
+  height: 180px;
+  display: block;
+  margin: 0 auto;
+}
+
+img#ada-love {
+  height: 150px;
+  float: left;
+  margin: 0 15px 5px 0;
+}
+
+img#hedy {
+  height: 150px;
+  float: left;
+  margin: 0 15px 5px 0;
+}
+
+img#grace {
+  height: 200px;
+  float: left;
+  margin: 0 15px 5px 0;
+}
