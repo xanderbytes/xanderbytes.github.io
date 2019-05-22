@@ -1,0 +1,20 @@
+body{
+  background-color: green;
+}
+
+header{
+  background-color: darkblue;
+}
+section{
+  background-color: gray;
+}
+aside{
+  background-color: darkgrey;
+}
+footer{
+  background-color: lightgray;
+  text-align: center;
+}
+p,h1,h2{
+  padding: 1%;
+}
