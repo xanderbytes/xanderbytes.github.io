@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hôtel De Moto</title>
+  <link rel="stylesheet" href="config/grid2.css">
+  <link rel="stylesheet" href="config/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <main>
+    <a href="index.html">
+      <img id="pictureLogo" src="images/logo.png" alt="En bild på en motorcykel som representerar temat av hotellet." />
+    </a>
+  </main>
+
+  <header>
+    <div class="topnav" id="idtopnav">
+      <a href="index.html">Start</a>
+      <a href="Offerings.html">I Närheten</a>
+      <a href="Booking.html" class="active">Boka</a>
+      <a href="Contact.html">Kontakt/Företag</a>
+      <a href="Directions.html">Hitta Hit</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("idtopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+  <div id="picture1">
+    <div class="container">
+      <form action="action_page.php">
+        <div class="row">
+          <div class="label">
+            <label for="name">Namn</label>
+          </div>
+          <div class="entry">
+            <input type="text" id="name" name="name" placeholder="Mata in både för- och efternamn här..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="label">
+            <label for="phone">Telefon</label>
+          </div>
+          <div class="entry">
+            <input type="text" id="phone" name="phone" placeholder="Mata in telefonnummer här..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="label">
+            <label>Rum</label>
+          </div>
+          <div class="entry">
+            <select id="rooms" name="rooms">
+              <option value="1bed">Simple Lounge - 100$/Night</option>
+              <option value="dbed">Sharers Lounge - 150$/Night</option>
+              <option value="2bed">Two Bed Lounge - 175$/Night</option>
+              <option value="luxurydbed">Entrepreneur Suite - 300$/Night</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="label">
+            <label for="comments">Commentarer</label>
+          </div>
+          <div class="entry">
+            <textarea id="comments" name="comments" placeholder="Önskas något annat eller har du/ni allergier mata in det här.." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>Hôtel De Moto, Phone: 510-817-6660</p>
+    <a class="link" href="mailto:utblucgah@skola.malmo.se">Gmail: Hôtel De Moto Mail</a>
+  </footer>
+
+</body>
+
+</html>

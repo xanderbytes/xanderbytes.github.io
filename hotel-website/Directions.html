@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hôtel De Moto</title>
+  <link rel="stylesheet" href="config/grid2.css">
+  <link rel="stylesheet" href="config/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <main>
+    <a href="index.html">
+      <img id="pictureLogo" src="images/logo.png" alt="En bild på en motorcykel som representerar temat av hotellet." />
+    </a>
+  </main>
+
+  <header>
+    <div class="topnav" id="idtopnav">
+      <a href="index.html">Start</a>
+      <a href="Offerings.html">I Närheten</a>
+      <a href="Booking.html">Boka</a>
+      <a href="Contact.html">Kontakt/Företag</a>
+      <a href="Directions.html" class="active">Hitta Hit</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("idtopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+  <div id="picture1">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7486.449394744905!2d-122.26932453030797!3d37.800481270456544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f80b5992cf3c1%3A0xb4fe8225bea32501!2sLincoln+Square+Park!5e0!3m2!1ssv!2sse!4v1558700349510!5m2!1ssv!2sse"
+      allowfullscreen></iframe>
+  </div>
+
+  <footer>
+    <p>Hôtel De Moto, Phone: 510-817-6660</p>
+    <a class="link" href="mailto:utblucgah@skola.malmo.se">Gmail: Hôtel De Moto Mail</a>
+  </footer>
+
+</body>
+
+</html>

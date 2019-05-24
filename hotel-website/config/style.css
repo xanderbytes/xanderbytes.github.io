@@ -1,0 +1,41 @@
+body {
+  color: inherit;
+  background-color: black;
+  margin: 0;
+}
+
+header {
+  color: inherit;
+  background-color: grey;
+}
+
+section {
+  color: inherit;
+  background-color: grey;
+}
+
+aside, div {
+  color: inherit;
+  background-color: grey;
+  /*  opacity: 0.8; */
+}
+
+footer {
+  color: inherit;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+main {
+  color: inherit;
+  background-color: grey;
+}
+
+p, h1, h2 {
+  padding: 1%;
+}
+
+#idtopnav {
+  color: inherit;
+  background-color: grey;
+}
